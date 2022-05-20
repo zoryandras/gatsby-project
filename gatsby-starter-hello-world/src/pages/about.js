@@ -1,8 +1,12 @@
 import React from 'react'
+import Layout from '../components/Layout'
+
 
 function about() {
   return (
-    <div>hello from about page</div>
+    <Layout>
+      <div>hello from about page</div>
+    </Layout>
   )
 }
 
