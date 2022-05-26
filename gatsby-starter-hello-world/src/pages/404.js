@@ -1,8 +1,18 @@
 import React from 'react'
+import Layout from '../components/Layout'
+import SEO from '../components/SEO'
 
 const Error = () => {
   return (
-    <div>EZ NEM JÓ!</div>
+    <Layout>
+      <SEO title="Error" />
+      <main className="error-page">
+        <section>
+          <h1>404</h1>
+          <h3>page is not found! zoinks!</h3>
+        </section>
+      </main>
+    </Layout>
   )
 }
 
