@@ -9,6 +9,7 @@ require("dotenv").config({
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/gatsby-project",
   siteMetadata: {
     title: "Crazy Recipes",
     description: "A recipe site for all the weirdos out there",
