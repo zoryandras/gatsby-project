@@ -5,14 +5,14 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
