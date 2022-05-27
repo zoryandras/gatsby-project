@@ -24,5 +24,5 @@
 
 5. **Oh, man, I really want to see the site working! Pretty please?**
 
-    Here ya go: [site](')
+    Here ya go: [site](https://crazy-recipes.netlify.app/)
 
