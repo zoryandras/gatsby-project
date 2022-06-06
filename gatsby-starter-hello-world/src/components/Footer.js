@@ -7,7 +7,7 @@ function Footer() {
         &copy; {new Date().getFullYear()}
         <span> My crazy recipes! </span>
         You can find other stuff at
-        <a href="https://zoryandras.github.io/react-website-practice/">
+        <a href="https://zoryandras.github.io/sass-project/dist/index.html">
           {" "}
           my demo page! :)
         </a>
